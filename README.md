@@ -21,6 +21,8 @@ buildscript {
 apply plugin: 'artfable.resource'
 ```
 
+It'll add a task `resolveResources`
+
 ## Usage
 First, you need to create your template file, and set parameters there. For instance: `%SOME_PARAM%` 
 
