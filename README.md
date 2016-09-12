@@ -9,9 +9,7 @@ For example, you can add a version or a build time to the property file.
 ```groovy
 buildscript {
     repositories {
-        maven {
-            url 'http://dl.bintray.com/artfable/gradle-plugins' // I hope that it'll be jcenter() in the future :)
-        }
+        jcenter()
     }
     dependencies {
         classpath "com.github.artfable.gradle:gradle-resource-plugin:0.0.1"
